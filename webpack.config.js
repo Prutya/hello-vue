@@ -10,7 +10,9 @@ const config = {
   },
 
   resolve: {
-    alias: {},
+    alias: {
+      '@': path.resolve('src')
+    },
     extensions: ['*', '.js', '.jsx', '.vue']
   },
 

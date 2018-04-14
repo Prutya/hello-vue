@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
-import App from './components/App.vue'
-import Hello from './components/Hello.vue'
+import App from '@/components/App'
+import Hello from '@/components/Hello'
 
 Vue.component('hello', Hello)
 
